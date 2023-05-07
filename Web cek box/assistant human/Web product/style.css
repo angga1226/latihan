@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-image: url(mudia.png);
+}
+
+.top-bar {
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: darkorange;
+	border-bottom: 5px solid salmon;
+}
+
+.top-bar a {
+	text-decoration: none;
+	color: #333;
+	font-size: 22px;
+}
+
+.top-bar a:hover {
+	background-color: blue;
+	color: white;
+}
+
+.top-bar  ul li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 180px;
+	margin-bottom: 20px;
+}
+
+.container {
+	margin-top: 30px;
+	width: 960px;
+	background-color: aqua;
+	margin: 80px auto;
+}
+
+.container a img {
+	width: 80px;
+	height: 135px;
+	position: absolute;
+	margin-left: 880px;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+.header a {
+	text-decoration: none;
+	color: navy;
+}
+
+.header a:hover {
+	background-color: gold;
+	color: white;
+	font-size: 20px;
+}
+
+.hero {
+	height: 330px;
+	background-image: url(p1.png);
+	background-position: 0 -210px;
+	background-size: cover;
+	border-top: 5px solid salmon;
+	border-bottom: 5px dashed gold;
+
+}
+
+.content {
+	margin-top: 30px;
+	padding: 20px;
+}
+
+.content h2 {
+	font-size: 25px;
+	font-weight: bold;
+	font-family: arial;
+}
+
+.n1 {
+	width: 100px;
+	height: 75px;
+	background-color: salmon;
+	color: white;
+	text-align: center;
+	line-height: 75px;
+	margin-top: 25px;
+	font-size: 18px;
+}
+
+.content img {
+	width: 40%;
+	height: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.tt {
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	margin: -43px;
+	margin-left: 115px;
+}
+
+.te {
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	margin: -43px;
+	margin-left: 115px;
+}
+
+.ti {
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	margin: -43px;
+	margin-left: 115px;
+}
